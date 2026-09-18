@@ -9,6 +9,7 @@ class ProfileApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+
         appBar: AppBar(title: Text("Profile 📍")),
 
         body: Center(
@@ -26,6 +27,24 @@ class ProfileApp extends StatelessWidget {
               //Widgets will Display one below Each Other
               mainAxisSize: MainAxisSize.min, //Size of Column
 
+              // children: [
+              //   //more than 1 widget
+              //   Text(
+              //     "Aye Mint",
+
+              //     style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              //   ),
+
+              //   SizedBox(height: 15),
+
+              //   Text("Flutter Developer"),
+
+              //   SizedBox(height: 15),
+
+              //   Text("India"),
+              // ],
+
+
               children: [
                 //more than 1 widget
                 Text(
@@ -36,11 +55,25 @@ class ProfileApp extends StatelessWidget {
 
                 SizedBox(height: 15),
 
-                Text("Flutter Developer"),
+               Container(
+                  padding: EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: Colors.lightBlue.shade100,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text("Introduction about myself"),
+                ),
 
                 SizedBox(height: 15),
 
-                Text("India"),
+                 Container(
+                  padding: EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: Colors.lightBlue.shade100,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text("I am a Flutter Developer from India"),
+                ),
               ],
             ),
           ),
