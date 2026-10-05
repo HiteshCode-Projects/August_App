@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421191798976",
+    "project_id": "augbacke",
+    "storage_bucket": "augbacke.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421191798976:android:862334de0d2ed60dfa9d25",
+        "android_client_info": {
+          "package_name": "com.example.my_frontendapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_M1P5iXTZ29l4MxcarqC9_1s-RCHZNjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

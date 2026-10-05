@@ -29,7 +29,7 @@ class _CounterAppState extends State<CounterApp> {
   //Function
   void IncreaseCount() {
     setState(() {
-      count++;
+      count++;  //Data Changed - FLutter to rebuld screen
     });
   }
 
